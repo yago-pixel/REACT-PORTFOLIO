@@ -19,3 +19,15 @@ function About() {
           </Col>
           <Col xs={12} md={8}>
             <Card></Card>
+
+            <Card.Body>
+                <Card.Title className="text-center mb-4">
+                  About Thomas Calle
+                </Card.Title>
+                <Card.Text>
+                  Yago Lira, 31 year old, Brazilian, first time learning about Web Development, I have university from Brazil of business administration. My dream is be a Full Stack Developer Coding.
+                </Card.Text>
+                <Card.Text>
+                  Now Im working by construction, hard time to study but I find the best way to change de life.
+                </Card.Text>
+              </Card.Body>
