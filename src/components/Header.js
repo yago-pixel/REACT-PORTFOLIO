@@ -24,3 +24,23 @@ function Header() {
                   to="/REACT-PORTFOLIO/"
                   className="text-white text-decoration-none"
                   style={{ margin: "0" }}
+                  >
+                  Yago Lira
+                </Link>
+                <FontAwesomeIcon
+                  icon={faChessKnight}
+                  flip="horizontal"
+                  className="fa-knight"
+                  size="xl"
+                  style={{ color: "#white" }}
+                />
+              </h1>
+            </Col>
+          </Row>
+        </Container>
+        <Navigation />
+      </>
+    );
+  }
+  // Export Header
+  export default Header;
