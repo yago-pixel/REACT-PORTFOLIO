@@ -25,4 +25,47 @@ function Portfolio() {
                 githubLink:
                   "git@github.com:yago-pixel/REACT-PORTFOLIO.git",
               },
+              {
+                title: "Online Workday Planner",
+                description: "Third-Party API Sceduler ft. Day.js",
+                imgSrc: WorkDayPlanner,
               
+              },
+              {
+                title: "Java Script: WEB API Quiz",
+                description: "Dynamically updated HTML & CSS Web API quiz game.",
+                imgSrc: WebAPI,}
+              {
+                title: "10 Things to Do in Toronto",
+                description: "Interactive Front-End Application Guide.",
+                imgSrc: ThingsToDoInToronto,
+              },
+              {
+                title: "Weather Dashboard",
+                description: "Server-Side APIs: (5) Day Weather Dashboard.",
+                imgSrc: Weather,
+                deployedLink:
+                  "https://github.com/yago-pixel/modulo6.git",
+                githubLink:
+                  "git@github.com:yago-pixel/modulo6.git",
+              },
+            ].map((project, index) => (
+              // Div container for each project
+              <div className="col-12 col-md-6 col-lg-4 my-2" key={index}>
+                {/* <h2>{project.title}</h2> */}
+                <Project
+                  title={project.title}
+                  description={project.description}
+                  imgSrc={project.imgSrc}
+                  deployedLink={project.deployedLink}
+                  githubLink={project.githubLink}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
+  // Export Portfolio
+  export default Portfolio;
