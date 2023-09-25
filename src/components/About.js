@@ -31,3 +31,14 @@ function About() {
                   Now Im working by construction, hard time to study but I find the best way to change de life.
                 </Card.Text>
               </Card.Body>
+
+              </Card>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  );
+}
+
+// Export About
+export default About;
