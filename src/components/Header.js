@@ -21,6 +21,6 @@ function Header() {
                   style={{ color: "#white" }}
                 />
                 <Link
-                  to="/7homas7he7ank-react-portfolio/"
+                  to="/REACT-PORTFOLIO/"
                   className="text-white text-decoration-none"
                   style={{ margin: "0" }}
