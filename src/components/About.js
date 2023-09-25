@@ -22,7 +22,7 @@ function About() {
 
             <Card.Body>
                 <Card.Title className="text-center mb-4">
-                  About Thomas Calle
+                  About Yago Lira
                 </Card.Title>
                 <Card.Text>
                   Yago Lira, 31 year old, Brazilian, first time learning about Web Development, I have university from Brazil of business administration. My dream is be a Full Stack Developer Coding.
