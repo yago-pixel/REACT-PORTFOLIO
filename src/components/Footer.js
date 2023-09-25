@@ -7,27 +7,9 @@ import "../style/Footer.css";
 const socials = [
   {
     name: "GitHub",
-    url: "https://github.com/ThomasCalle",
+    url: "https://github.com/Yagio,
     icon: faGithub,
     color: "#5DE512",
-  },
-  {
-    name: "YouTube",
-    url: "https://www.youtube.com/@thoscalle4104",
-    icon: faYoutube,
-    color: "#FF0000",
-  },
-  {
-    name: "LinkedIn",
-    url: "https://www.linkedin.com/in/thomas-calle/",
-    icon: faLinkedin,
-    color: "#2EACE8",
-  },
-  {
-    name: "TikTok",
-    url: "https://www.tiktok.com/@thoscalle?lang=en",
-    icon: faTiktok,
-    color: "white",
   },
 ];
 
@@ -62,7 +44,7 @@ const Footer = () => {
           ))}
         </section>
         <section className="form-footer">
-        <h5 className="designer-text">Designed with ⏳ by Thomas Calle</h5>
+        <h5 className="designer-text">Designed with ⏳ by Yago Lira/h5>
           <p>
           <h6 className="copyright-text">&copy; {new Date().getFullYear()} All rights reserved.</h6>
           </p>
