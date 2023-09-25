@@ -7,7 +7,7 @@ import "../style/Footer.css";
 const socials = [
   {
     name: "GitHub",
-    url: "https://github.com/Yagio,
+    url: "https://github.com/Yago-pixel",
     icon: faGithub,
     color: "#5DE512",
   },
@@ -44,7 +44,7 @@ const Footer = () => {
           ))}
         </section>
         <section className="form-footer">
-        <h5 className="designer-text">Designed with ⏳ by Yago Lira/h5>
+        <h5 className="designer-text">Designed with ⏳ by Yago Lira</h5>
           <p>
           <h6 className="copyright-text">&copy; {new Date().getFullYear()} All rights reserved.</h6>
           </p>
