@@ -4,7 +4,7 @@
 
 ## Description.
 
-The GitHub-Pages launched application showcases Yago Liras React Portfolio, which contains (6) highlighted projects of his 12-week Full-Stack Developer boot camp experience at the University of Toronto. The portfolio is designed as a single-page application and demonstrates his proficiency in building modern web applications.
+The GitHub-Pages launched application showcases Yago Liras React Portfolio, which contains (6) highlighted projects of his 6-month Full-Stack Developer boot camp experience at the University of Toronto. The portfolio is designed as a single-page application and demonstrates his proficiency in building modern web applications.
 
 
 ## Table of Contents:
